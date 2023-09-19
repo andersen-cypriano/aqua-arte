@@ -43,6 +43,7 @@
 
 
             {% include "static/css/style-critical.tpl" %}
+            {% include "static/css/mt-solucoes/style-mt.min.css" %}
         </style>
 
         {# Colors and fonts used from settings.txt and defined on theme customization #}
@@ -207,6 +208,8 @@
                 {% else %}
                     {% include "static/js/store.js.tpl" %}
                 {% endif %}
+
+                {% include "static/js/mt-solucoes/mt-solucoes.js.tpl" %}
             });
         </script>
 
